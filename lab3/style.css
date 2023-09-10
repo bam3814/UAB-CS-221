@@ -1,0 +1,62 @@
+h1 {
+  color: green;
+  text-indent: 10cm;
+  font-size: xx-large;
+  text-decoration: underline;
+  line-height: 45%;
+} /* This section takes the heading and:
+      Changes the color to green
+      Indents the text 10 centimeters
+      Enlarges the font to double XXL
+      Draws a line below all the letters
+      Has the height at 45% */
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: chartreuse;
+  margin: auto;
+} /* This section takes the section headers and:
+      Changes the font of the text to Courier New
+      Changes the background color to chartreuse
+      Makes the margin auto */
+
+li {
+  font-size: large;
+  word-spacing: 25%;
+  color: coral;
+  font-style: italic;
+} /* This section takes the bullet points and:
+      Enlarges the text to large
+      Spaces the word to 25%
+      Changes the text color to coral
+      Makes the letters italicized */
+
+a {
+  text-decoration: dotted;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 40%;
+  color: blue;
+} /* This section takes the link and:
+      Changes the text to dotted
+      Changes the font to Times New Roman
+      Changes the padding to 40%
+      Changes the font color to blue */
+
+a:hover {
+  color: blueviolet;
+} /* This section takes the heading and:
+      Changes the hover effects to blueviolet */
+
+footer {
+  font-style: italic;
+} /* This section takes the footer and:
+      Makes the letters to italicized*/
+
+img {
+  width: 400px;
+  height: 400px;
+  border-color: black;
+} /* This section takes the image and:
+      Makes the image 400 px wide
+      Makes the image 400 px high
+      MAkes the image's border color black*/
