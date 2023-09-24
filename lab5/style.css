@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: black;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+li {
+  color: black;
+}
+body {
+  background-color: brown;
+}
+
+p {
+  color: black;
+}
+
+.brian {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1em;
+}
+
+.sections {
+  background: wheat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 340px;
+  min-height: 250px;
+}
+
+.sections h2 {
+  font-weight: 900;
+  color: yellow;
+  background-color: brown;
+  text-decoration: underline;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  border-color: black;
+}
