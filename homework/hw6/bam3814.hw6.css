@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex-container /* Creates the flex container */ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.grid-container /* Creates the grid container */ {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(3, 175px); /* Three columns*/
+  grid-template-rows: repeat(3, 175px); /* Three rows*/
+}
+.grid-item {
+  display: flex;
+  align-items: center; /* Centers the numbers */
+  justify-content: center;
+}
+.number1 {
+  color: #00eeff; /* Foreground color */
+}
+.number2 {
+  color: #57c200; /* Foreground color */
+}
+.number3 {
+  color: #c27100; /* Foreground color */
+}
+.number4 {
+  color: #c20000; /* Foreground color */
+  grid-column: span 3;
+}
+.number5 {
+  color: #7e00c2; /* Foreground color */
+}
+.number6 {
+  color: #dce28d; /* Foreground color */
+}
+.number7 {
+  color: #40073c; /* Foreground color */
+}
+
+body {
+  background-color: brown; /* Background color */
+}
