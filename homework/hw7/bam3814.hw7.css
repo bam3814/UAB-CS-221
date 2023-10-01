@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.grid-container {
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(3, 175px);
+  grid-template-rows: repeat(3, 175px);
+}
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  color: deeppink;
+  text-decoration: underline;
+}
+.grid-item:hover {
+  scale: 1.5;
+}
+.grid-item:nth-child(even) {
+  border-style: groove;
+}
+.grid-item:hover::before {
+  content: 'Sunset at the beach';
+  position: absolute;
+  top: 0;
+  background: linear-gradient(rgb(2, 24, 46), rgba(255, 255, 255, 0.5));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item:hover::after {
+  scale: 1.5;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-color: brown;
+}
