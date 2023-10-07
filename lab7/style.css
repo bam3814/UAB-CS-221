@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 1000; /* Made font weight bigger */
+  color: black;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: yellow; /* Made title match the color of the sections(it's not too overbearing) */
+  font-size: xx-large; /* Made font bigger */
+  text-decoration: underline; /* Made title stand out */
+}
+
+li {
+  color: black;
+}
+body {
+  background-color: brown;
+}
+
+p {
+  color: black;
+  font-size: large; /* Made font bigger */
+  font-weight: bolder; /* Made font bold */
+}
+
+.brian {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1em;
+}
+
+.sections {
+  background: wheat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px; /* Made the sections biggerr */
+  min-height: 550px; /* Made the sections bigger */
+}
+
+.sections h2 {
+  color: yellow;
+  background-color: brown;
+  text-decoration: underline;
+  font-size: x-large; /* Made font bigger */
+  font-weight: bold; /* Made font bold */
+}
