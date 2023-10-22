@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <title>Homework 8</title>
+  </head>
+ <script>
+  const prompt = require("prompt-sync")();
+  var grade = prompt("Enter student's numeric grade: ");
+  let letter = String(grade);
+  if (grade <= 100 && grade >= 90){
+    letter = "A";
+    console.log("Grade: " + grade);
+    console.log("Letter Grade: " + letter);
+    console.log("Reward: Candy");
+  }
+  else if (grade < 90 && grade >= 80){
+    letter = "B";
+    console.log("Grade: " + grade);
+    console.log("Letter Grade: " + letter);
+    console.log("Reward: Apple");
+  }
+  else if (grade < 80 && grade >= 70){
+    letter = "C";
+    console.log("Grade: " + grade);
+    console.log("Letter Grade: " + letter);
+    console.log("Reward: Mint");
+  }
+  else if (grade < 70 && grade >= 60){
+    letter = "D";
+    console.log("Grade: " + grade);
+    console.log("Letter Grade: " + letter);
+    console.log("Reward: Pencil");
+  }
+  else if (grade >= 60){
+    letter = "F";
+    console.log("Grade: " + grade);
+    console.log("Letter Grade: " + letter);
+    console.log("Reward: Awkward conversation with parents");
+  }
+  else {
+    consoloe.log("Try again. Put in a numberic value between 0 and 100")
+  }
+
+ </script>
+
+  </body>
+
+</html>
