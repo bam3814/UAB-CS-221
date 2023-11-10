@@ -1,0 +1,52 @@
+* {
+  color: white;
+  background: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-size: 3rem;
+}
+.screen {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+}
+.rock {
+  width: 100px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.paper {
+  width: 100px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.scissors {
+  width: 100px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.choices {
+  justify-content: space-evenly;
+  display: flex;
+  width: 25vw;
+  margin-top: 2rem;
+}
+.result {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: yellow;
+}
+@media screen and (max-width: 612px) {
+  .title {
+    text-align: center;
+  }
+  .options {
+    width: 200vw;
+  }
+}
