@@ -1,0 +1,47 @@
+body {
+  background-color: cyan;
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  background-color: white;
+  margin: 30px auto;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 5px;
+  max-width: 1000px;
+}
+
+.search-Box {
+  margin-bottom: 30px;
+}
+
+.searchBar {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+input[type='searchBar'] {
+  width: 70%;
+  padding: 5px;
+}
+
+.list {
+  padding: 0;
+}
+
+.details {
+  display: none;
+}
+
+.bookshelf {
+  margin-top: 30px;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+}
